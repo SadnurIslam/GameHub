@@ -1,0 +1,203 @@
+[
+    {
+      "id": "1",
+      "title": "Player Unknown's Battlegrounds: PUBG",
+      "coverPhoto": "https://wstatic-prod-boc.krafton.com/common/content/media/20250507/kcDutagb/33.1_Sanhok_Destruction_KV.jpg",
+      "category": "FPS",
+      "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+      "description": "PUBG Mobile is a fast-paced battle royale where 100 players drop into a vast map and fight for survival. Players can loot weapons, vehicles, and armor while strategizing to stay within the safe zone. The shrinking play area ensures intense and thrilling battles. Squad coordination and communication play a key role in achieving victory. Realistic graphics and immersive sound effects heighten the experience. From classic Erangel to Livik, every map offers unique challenges. Players can customize their outfits and weapons to express their style. Frequent updates introduce new game modes, collaborations, and seasonal events, keeping gameplay fresh.",
+      "ratings": "4.5",
+      "developer": "Krafton"
+    },
+    {
+      "id": "2",
+      "title": "Call of Duty: Mobile",
+      "coverPhoto": "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blackops7/home/game-modes/Chimera_LP_Co-Op.webp",
+      "category": "FPS",
+      "downloadLink": "https://www.callofduty.com/mobile",
+      "description": "Call of Duty: Mobile brings the iconic FPS franchise to your fingertips with console-quality graphics. The game features a variety of multiplayer modes including Team Deathmatch, Domination, and Battle Royale. Players can use classic weapons and characters from the COD universe. Ranked matches challenge even the most skilled players. The game includes a rich progression system with weapon upgrades and loadout customization. Battle Royale mode features vehicles, classes, and survival tactics. Frequent updates bring new maps and operators. Its competitive events and eSports tournaments add depth for serious players.",
+      "ratings": "4.7",
+      "developer": "Activision"
+    },
+    {
+      "id": "3",
+      "title": "Genshin Impact",
+      "coverPhoto": "https://gmedia.playstation.com/is/image/SIEPDC/genshin-impact-packshot-01-en-18jun21?$1600px$",
+      "category": "Action RPG",
+      "downloadLink": "https://genshin.hoyoverse.com/",
+      "description": "Genshin Impact offers an open-world action RPG experience set in the fantasy land of Teyvat. Players explore vast landscapes, climb mountains, and glide across skies while uncovering mysteries. Combat is elemental-based, combining powers like fire, ice, and electricity for spectacular effects. Each character has unique abilities and backstories. The world is filled with hidden treasures, puzzles, and powerful enemies. Players can team up in co-op mode for challenging bosses. Stunning visuals and an enchanting soundtrack make exploration deeply immersive. Regular updates add new regions, characters, and events to expand the adventure.",
+      "ratings": "4.6",
+      "developer": "HoYoverse"
+    },
+    {
+      "id": "4",
+      "title": "Valorant",
+      "coverPhoto": "https://wstatic-prod-boc.krafton.com/PUBG_OFFICIAL/20230328/rt0jHPPY_thumb.jpg",
+      "category": "Tactical Shooter",
+      "downloadLink": "https://playvalorant.com/",
+      "description": "Valorant is a competitive tactical shooter blending precise gunplay with hero-based abilities. Players join 5v5 matches where teamwork and strategy determine victory. Each Agent has unique abilities that complement their weapons. The game rewards tactical thinking and communication. A variety of maps feature bomb sites and objective-based gameplay. The gun mechanics are tight, making accuracy critical. Competitive ranked play attracts professional-level players. Riot Games frequently introduces new agents, maps, and balance updates. With esports tournaments and active community support, Valorant continues to redefine tactical FPS gaming.",
+      "ratings": "4.8",
+      "developer": "Riot Games"
+    },
+    {
+      "id": "5",
+      "title": "Apex Legends",
+      "coverPhoto": "https://drop-assets.ea.com/images/SkUXbkf2wmCYuxSTMCiAu/d59fec614225b5b1e60576087b545fb5/Apex_S26-feature-image-4x3.jpg?im=Resize=(1191)&q=85",
+      "category": "Battle Royale",
+      "downloadLink": "https://www.ea.com/games/apex-legends",
+      "description": "Apex Legends reimagines the battle royale genre with hero-based gameplay and dynamic team mechanics. Players select from a roster of Legends, each with unique abilities and playstyles. Squads of three drop into diverse maps, scavenging weapons and supplies. Communication and synergy are vital for survival. The ping system allows seamless coordination without voice chat. Frequent seasons introduce new Legends, weapons, and maps. The fast-paced movement and fluid combat make every match exhilarating. Apex also offers ranked leagues and limited-time modes for competitive excitement. Stunning visuals and lore-rich characters enhance immersion.",
+      "ratings": "4.6",
+      "developer": "Respawn Entertainment"
+    },
+    {
+      "id": "6",
+      "title": "Minecraft",
+      "coverPhoto": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/MCM_HalloweenSale_Homepage_1920x1080.jpg",
+      "category": "Sandbox",
+      "downloadLink": "https://www.minecraft.net/",
+      "description": "Minecraft lets players create, explore, and survive in a blocky, procedurally generated world. It encourages creativity through building and crafting mechanics. Players can gather resources, construct buildings, and fight off monsters at night. Survival mode tests resource management and endurance. Creative mode offers unlimited possibilities for architectural masterpieces. Multiplayer servers foster community interaction and massive shared worlds. Redstone mechanics allow for complex engineering systems. The game supports endless mods, expanding gameplay diversity. Educational editions make it a valuable learning tool. Its simplicity and depth make Minecraft timeless.",
+      "ratings": "4.9",
+      "developer": "Mojang Studios"
+    },
+    {
+      "id": "7",
+      "title": "Fortnite",
+      "coverPhoto": "https://cdn2.unrealengine.com/en-fneco-37-40-fortnitemares-webcarousel-logo-1200x416-991x320-9d90d1ddc348.png?resize=1&w=1600",
+      "category": "Battle Royale",
+      "downloadLink": "https://www.epicgames.com/fortnite/",
+      "description": "Fortnite is a vibrant, fast-paced battle royale that blends shooting, building, and creativity. Players drop onto a colorful island, collect weapons, and outlast 99 opponents. The building mechanic adds a unique layer of defense and mobility. Regular updates bring limited-time events and collaborations with movies and celebrities. The game includes multiple modes like Zero Build, Creative, and Save the World. Its cartoonish art style appeals to all ages. In-game concerts and live events redefine digital entertainment. Frequent map changes keep gameplay exciting. It’s a cultural phenomenon as much as a game.",
+      "ratings": "4.5",
+      "developer": "Epic Games"
+    },
+    {
+      "id": "8",
+      "title": "League of Legends",
+      "coverPhoto": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/76c98a7d43d4185e9ce1c9e0cd6f9647fed75acd-1304x1304.png?auto=format&fit=fill&q=80&w=640",
+      "category": "MOBA",
+      "downloadLink": "https://www.leagueoflegends.com/",
+      "description": "League of Legends is a fast-paced MOBA where two teams of five battle to destroy the enemy nexus. Players select Champions with diverse abilities and roles. Strategy, teamwork, and map control are key to victory. The game features multiple maps and competitive ranked play. Frequent patches ensure balance and freshness. The esports scene is massive, with global tournaments like Worlds drawing millions of viewers. Its lore expands across comics and animated series. Players can customize skins and emotes for their champions. With constant evolution, LoL remains a cornerstone of online competitive gaming.",
+      "ratings": "4.7",
+      "developer": "Riot Games"
+    },
+    {
+      "id": "9",
+      "title": "Clash of Clans",
+      "coverPhoto": "https://supercell.com/images/ae58a39e76410b4ae9c2bea65d4a584d/1681/hero_bg_clashofclans_.fae7c799.webp",
+      "category": "Strategy",
+      "downloadLink": "https://supercell.com/en/games/clashofclans/",
+      "description": "Clash of Clans is a strategic base-building game where players build villages, train troops, and raid others for resources. Defenses must be upgraded to fend off attacks. Clan wars allow teamwork and coordination with friends. The game rewards patience, strategy, and timing. Its art style and characters are charming and iconic. Town Hall upgrades unlock new troops and defenses. Supercell frequently adds challenges, hero units, and seasonal events. The community-driven design ensures longevity. Whether casual or competitive, players find endless fun in developing and defending their bases.",
+      "ratings": "4.6",
+      "developer": "Supercell"
+    },
+    {
+      "id": "10",
+      "title": "Among Us",
+      "coverPhoto": "https://www.innersloth.com/wp-content/uploads/2024/02/spidererrr-2.png",
+      "category": "Party",
+      "downloadLink": "https://www.innersloth.com/gameAmongUs.php",
+      "description": "Among Us is a multiplayer social deduction game set in space. Players work together to complete tasks while impostors secretly sabotage and eliminate crewmates. Suspicion and communication are vital as players debate who the impostor is. The game supports cross-platform play across devices. Simple visuals and intuitive controls make it accessible to all. Custom game settings allow for creativity and fun variations. Frequent updates add new maps, roles, and cosmetics. Voice chat and mods enhance replayability. Among Us became a social phenomenon, perfect for both friends and streamers.",
+      "ratings": "4.4",
+      "developer": "Innersloth"
+    },
+    {
+      "id": "11",
+      "title": "The Witcher 3: Wild Hunt",
+      "coverPhoto": "https://www.thewitcher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fconcerts.ae0b8bb0.png&w=1920&q=75",
+      "category": "RPG",
+      "downloadLink": "https://thewitcher.com/en/witcher3",
+      "description": "The Witcher 3: Wild Hunt is an award-winning open-world RPG following Geralt of Rivia. Players explore a war-torn fantasy land filled with monsters, quests, and moral dilemmas. Every choice shapes the story and world. The combat combines swordplay, alchemy, and magic for depth and challenge. Expansions like Blood and Wine add vast new regions. The world feels alive with dynamic weather and detailed characters. Its storytelling is rich and emotional. Players can hunt creatures, craft gear, and explore endless side quests. It’s a masterpiece in storytelling and world-building.",
+      "ratings": "4.9",
+      "developer": "CD Projekt Red"
+    },
+    {
+      "id": "12",
+      "title": "Cyberpunk 2077",
+      "coverPhoto": "https://www.cyberpunk.net/build/images/cyberpunk/keyart-myrewards@1x-189511f5.jpg",
+      "category": "Action RPG",
+      "downloadLink": "https://www.cyberpunk.net/",
+      "description": "Cyberpunk 2077 takes players to the neon-soaked streets of Night City, a dystopian metropolis full of secrets. Players become V, a mercenary navigating a world of power and corruption. Deep RPG mechanics let you customize playstyle, augmentations, and story decisions. The world is alive with NPCs, cars, and dynamic weather. Stunning visuals and immersive storytelling pull players into the experience. Quests blend stealth, hacking, and combat. The game’s themes explore humanity’s relationship with technology. Recent updates and DLCs have improved gameplay significantly. It’s a journey of rebellion and survival in a digital age.",
+      "ratings": "4.3",
+      "developer": "CD Projekt Red"
+    },
+    {
+      "id": "13",
+      "title": "Rocket League",
+      "coverPhoto": "https://us-west-2-epicgames.graphassets.com/cm84mjx3f0a0j08n79wol8l1l/resize=fit:clip,height:720,width:1280/quality=value:100/output=format:webp/cmgtvddlaapc307n6lt2g0bmn",
+      "category": "Sports",
+      "downloadLink": "https://www.rocketleague.com/",
+      "description": "Rocket League combines soccer with rocket-powered cars for high-octane action. Players compete in teams, hitting a giant ball into the opponent’s goal. The physics-based gameplay rewards skill and timing. Customizable cars and arenas enhance replayability. Ranked matches test competitive prowess, while casual modes offer quick fun. The game supports cross-platform multiplayer for seamless play. Regular events bring limited-time cosmetics and challenges. Esports tournaments showcase top talent. Simple to learn but hard to master, Rocket League remains one of the most unique and addictive sports games ever made.",
+      "ratings": "4.7",
+      "developer": "Psyonix"
+    },
+    {
+      "id": "14",
+      "title": "Counter-Strike: Global Offensive",
+      "coverPhoto": "https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/event_header.png",
+      "category": "FPS",
+      "downloadLink": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/",
+      "description": "CS:GO is a tactical first-person shooter emphasizing skill, precision, and teamwork. Players join either Terrorists or Counter-Terrorists to complete objectives. Maps are balanced and competitive, designed for strategy. The economy system adds depth, rewarding smart decision-making. Its weapon mechanics demand mastery and consistency. Millions play globally through ranked matches and community servers. Esports tournaments draw massive audiences. Frequent updates introduce skins and minor gameplay tweaks. Despite its age, CS:GO remains a benchmark for competitive FPS excellence. Its influence on modern shooters is undeniable.",
+      "ratings": "4.8",
+      "developer": "Valve"
+    },
+    {
+      "id": "15",
+      "title": "Mobile Legends: Bang Bang",
+      "coverPhoto": "https://akmweb.youngjoygame.com/web/gms/image/694619ac9a3170bdeb9bc672ee1f8fc2.jpg",
+      "category": "MOBA",
+      "downloadLink": "https://m.mobilelegends.com/en",
+      "description": "Mobile Legends: Bang Bang delivers intense 5v5 MOBA battles designed for mobile devices. Players select heroes with diverse roles like tank, mage, or marksman. Matches are short but action-packed. Strategy, positioning, and team synergy decide victory. The game features easy controls and smooth performance. Frequent updates add heroes and skins. Ranked mode offers competitive thrill. Its global community and esports tournaments highlight its popularity. Mobile Legends balances accessibility with depth, making it one of the best mobile MOBAs worldwide.",
+      "ratings": "4.5",
+      "developer": "Moonton"
+    },
+    {
+      "id": "16",
+      "title": "Dota 2",
+      "coverPhoto": "https://clan.akamai.steamstatic.com/images//3703047/2868642fce62093c54a753c9471cd72bc0926ae5.png",
+      "category": "MOBA",
+      "downloadLink": "https://www.dota2.com/",
+      "description": "Dota 2 is a deep, strategic multiplayer online battle arena by Valve. Players choose from over a hundred heroes with unique skills. Each match offers infinite strategic possibilities. Coordination and timing are key to victory. The item system adds complexity and customization. Esports tournaments like The International boast record-breaking prize pools. The game’s visual design and music enhance immersion. Dota 2’s community-driven updates keep it evolving. Though challenging to master, its depth rewards dedicated players with endless replayability.",
+      "ratings": "4.6",
+      "developer": "Valve"
+    },
+    {
+      "id": "17",
+      "title": "Red Dead Redemption 2",
+      "coverPhoto": "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/949e0a50124a889b098f73cedc29fb3b.jpg",
+      "category": "Adventure",
+      "downloadLink": "https://www.rockstargames.com/reddeadredemption2/",
+      "description": "Red Dead Redemption 2 immerses players in the American frontier during the late 1800s. You play Arthur Morgan, an outlaw seeking survival amid a crumbling gang. The open world is breathtakingly detailed, from snowy peaks to bustling towns. Storytelling is emotional and cinematic. Players can hunt, rob, fish, and explore freely. Choices affect relationships and story outcomes. Realistic animations and dialogue create unparalleled immersion. The online mode extends the experience with multiplayer missions. It’s a masterpiece of narrative and world design.",
+      "ratings": "4.9",
+      "developer": "Rockstar Games"
+    },
+    {
+      "id": "18",
+      "title": "Assassin’s Creed: Valhalla",
+      "coverPhoto": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6vMX1pcoegPvhYkiV5NLwn/84987d2f6bb261d114d5a8009cee1e15/ac-valhalla-hero.jpg",
+      "category": "Action RPG",
+      "downloadLink": "https://www.ubisoft.com/game/assassins-creed/valhalla",
+      "description": "Assassin’s Creed: Valhalla puts players in the role of Eivor, a Viking warrior exploring medieval England. Players can raid villages, conquer kingdoms, and shape alliances. The open world is rich with Norse mythology and exploration. Combat combines brutal melee and stealth tactics. Choices influence story outcomes and relationships. Settlement building allows for deep customization. The visuals and atmosphere capture the Viking era beautifully. Side quests and mysteries enrich the experience. With expansive DLCs, Valhalla offers hundreds of hours of adventure.",
+      "ratings": "4.4",
+      "developer": "Ubisoft"
+    },
+    {
+      "id": "19",
+      "title": "Horizon Zero Dawn",
+      "coverPhoto": "https://wgsw-us.gcdn.co/wgsw_media/wot-esrb-rating-back.jpg",
+      "category": "Action Adventure",
+      "downloadLink": "https://www.playstation.com/en-us/games/horizon-zero-dawn/",
+      "description": "Horizon Zero Dawn is a stunning open-world action game where humanity lives among robotic creatures. Players control Aloy, a hunter uncovering her origins. The game blends archery, stealth, and strategy in combat. The world is lush with forests, deserts, and ruins of the old world. The story explores themes of technology, survival, and destiny. Visuals and animations set new industry standards. The crafting system encourages creativity and planning. Side quests and exploration reward curiosity. It’s both visually breathtaking and narratively powerful.",
+      "ratings": "4.8",
+      "developer": "Guerrilla Games"
+    },
+    {
+      "id": "20",
+      "title": "Elden Ring",
+      "coverPhoto": "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/seasons/blackops6/season-6/operators/BO6_S6_Operator_Dread.webp",
+      "category": "Action RPG",
+      "downloadLink": "https://en.bandainamcoent.eu/elden-ring/elden-ring",
+      "description": "Elden Ring combines the challenge of Soulsborne games with a vast open world. Players traverse the Lands Between, filled with terrifying bosses and hidden lore. Combat is deep, rewarding timing and precision. Players can choose diverse builds and magic styles. The world design encourages exploration and discovery. Its atmospheric storytelling unfolds through visuals and encounters. Co-op and invasion mechanics add unpredictability. The game’s art direction and soundtrack are hauntingly beautiful. Elden Ring stands as a masterpiece of dark fantasy and freedom.",
+      "ratings": "4.9",
+      "developer": "FromSoftware"
+    }
+  ]
+  

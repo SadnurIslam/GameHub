@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+    themes: dark --default;
+}
+
+
+.swiper-pagination-bullet {
+    background-color: rgb(157, 166, 180) !important; 
+    opacity: 1 !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #f3f4f7 !important; 
+  }
+  
+
+  a.active{
+    color: rgb(117, 146, 241);
+    font-weight: bold;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  .menu-sm li a{
+    font-size: 16px;
+  }
+
