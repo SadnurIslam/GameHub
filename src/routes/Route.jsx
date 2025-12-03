@@ -10,8 +10,8 @@ import AllGames from "../pages/AllGames";
 import PrivateRoute from "./PrivateRoute";
 import Profile from "../pages/Profile";
 import UpdateInfo from "../pages/UpdateInfo";
-import AboutUs from "../components/AboutUs";
-import Contact from "../components/Contact";
+import AboutUs from "../pages/AboutUs";
+import Contact from "../pages/Contact";
 
 const router = createBrowserRouter(
     [

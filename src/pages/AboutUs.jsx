@@ -5,7 +5,6 @@ const AboutUs = () => {
   return (
     <div className="text-white px-6 md:px-10 py-14 max-w-6xl mx-auto">
 
-      {/* Title Section */}
       <div className="text-center space-y-3 mb-14">
         <h1 className="text-4xl md:text-5xl font-bold">About GameHub</h1>
         <p className="text-gray-300 max-w-2xl mx-auto">
@@ -13,10 +12,8 @@ const AboutUs = () => {
         </p>
       </div>
 
-      {/* Mission Cards */}
       <div className="grid md:grid-cols-3 gap-8">
 
-        {/* Card 1 */}
         <div className="bg-[#1e1e2f] p-6 rounded-2xl shadow-xl border border-[#2e2e42]">
           <div className="flex items-center gap-3 mb-4">
             <Rocket size={28} className="text-blue-400" />
@@ -27,7 +24,6 @@ const AboutUs = () => {
           </p>
         </div>
 
-        {/* Card 2 */}
         <div className="bg-[#1e1e2f] p-6 rounded-2xl shadow-xl border border-[#2e2e42]">
           <div className="flex items-center gap-3 mb-4">
             <Gamepad2 size={28} className="text-green-400" />
@@ -38,7 +34,6 @@ const AboutUs = () => {
           </p>
         </div>
 
-        {/* Card 3 */}
         <div className="bg-[#1e1e2f] p-6 rounded-2xl shadow-xl border border-[#2e2e42]">
           <div className="flex items-center gap-3 mb-4">
             <Users size={28} className="text-purple-400" />
@@ -51,7 +46,6 @@ const AboutUs = () => {
 
       </div>
 
-      {/* Vision Section */}
       <div className="mt-16 p-8 bg-[#1a1a28] rounded-2xl shadow-lg border border-[#2d2d40]">
         <div className="flex items-center gap-3 mb-4">
           <Target size={30} className="text-red-400" />
