@@ -2,6 +2,9 @@ import React,{useEffect} from 'react';
 import Banner from '../components/Banner';
 import Popular from '../components/Popular';
 import Newsletter from '../components/Newsletter';
+import FeaturedCategories from '../components/FeaturedCategories';
+import Trending from '../components/Trending';
+import GameOfTheWeek from '../components/GameOfTheWeek';
 
 const Home = () => {
     useEffect(() => {
@@ -11,6 +14,9 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Popular></Popular>
+            <FeaturedCategories></FeaturedCategories>
+            {/* <Trending></Trending> */}
+            <GameOfTheWeek></GameOfTheWeek>
             <Newsletter></Newsletter>
         </div>
     );

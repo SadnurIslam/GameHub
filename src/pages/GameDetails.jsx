@@ -55,7 +55,7 @@ const GameDetails = () => {
                     </div>
                     <div>
                         <div className='mt-10'>
-                            <a target="_blank" href={game.downloadLink} className="mt-6 px-6 py-2 rounded-xl bg-green-600 hover:bg-green-700">
+                            <a target="_blank" href={game.downloadLink} className="mt-6 px-6 py-2 rounded-lg  bg-[#1111D4] hover:bg-[#2626ff]">
                                 Download Now
                             </a>
                         </div>
