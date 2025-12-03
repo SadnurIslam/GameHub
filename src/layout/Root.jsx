@@ -7,9 +7,9 @@ import { ToastContainer } from 'react-toastify';
 const Root = () => {
     return (
         <div className='bg-[#101022] '>
-            <header className='md:w-11/12  mx-auto py-4'>
+            {/* <header className='md:w-11/12  mx-auto py-4'> */}
                 <Navbar></Navbar>
-            </header>
+            {/* </header> */}
             <main className='w-11/12 mx-auto py-7 min-h-screen'>
                 <Outlet></Outlet>
             </main>

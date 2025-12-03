@@ -30,7 +30,7 @@ const Banner = () => {
             >
                 {data.map((game, index) => (
                     <SwiperSlide key={index}>
-                        <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px]">
+                        <div className="relative w-full h-[60vh] md:h-[65vh] lg:h-[70vh]">
                             <div className='w-full h-full'>
                                 <img
                                     src={game.coverPhoto}

@@ -4,21 +4,54 @@ import { IoGameController } from 'react-icons/io5';
 import { AuthContext } from '../contexts/AuthContext';
 import { toast } from 'react-toastify';
 
-
 const Navbar = () => {
-
     const { user, loading, signOutUser } = use(AuthContext);
-
     const isUserLoggedIn = !!user;
 
-    const handleMenuClose = () => {
-        document.activeElement?.blur();
-    };
+    const handleMenuClose = () => document.activeElement?.blur();
 
-    const links = <>
-        <li onClick={handleMenuClose} className='hover:scale-101 hover:underline rounded-sm p-2'><NavLink to='/'>Home</NavLink></li>
-        <li onClick={handleMenuClose} className='hover:scale-101 hover:underline rounded-sm p-2 '><NavLink to='/games'>Games</NavLink></li>
-    </>
+    const activeClass =
+        "text-blue-400 font-semibold border-b-2 border-blue-500 pb-1";
+
+    const links = (
+        <>
+            <li className="p-2">
+                <NavLink
+                    to="/"
+                    onClick={handleMenuClose}
+                    className={({ isActive }) =>
+                        isActive ? activeClass : "hover:text-blue-300 transition"
+                    }
+                >
+                    Home
+                </NavLink>
+            </li>
+            <li className="p-2">
+                <NavLink
+                    to="/games"
+                    onClick={handleMenuClose}
+                    className={({ isActive }) =>
+                        isActive ? activeClass : "hover:text-blue-300 transition"
+                    }
+                >
+                    Games
+                </NavLink>
+            </li>
+
+            <li className="p-2"><NavLink to="/about"
+                onClick={handleMenuClose}
+                className={({ isActive }) =>
+                    isActive ? activeClass : "hover:text-blue-300 transition"
+                }
+            >About</NavLink></li>
+            <li className="p-2"><NavLink to="/contact"
+                onClick={handleMenuClose}
+                className={({ isActive }) =>
+                    isActive ? activeClass : "hover:text-blue-300 transition"
+                }
+            >Contact</NavLink></li>
+        </>
+    );
 
     const handleSignOut = () => {
         signOutUser()
@@ -26,56 +59,92 @@ const Navbar = () => {
                 toast.info(`Bye Bye! ${user.displayName}`, { autoClose: 1000 });
             })
             .catch((error) => {
-                toast.error('Sign out failed: ' + error.code, { autoClose: 3000 });
+                toast.error("Sign out failed: " + error.code, { autoClose: 3000 });
             });
-    }
-
+    };
 
     return (
-        <div className="navbar bg-[#101022] shadow-sm text-white flex">
-            <div className="navbar-start">
-                <div className="dropdown z-10">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-                    </div>
+        <nav className="navbar md:w-11/12  mx-auto py-4 bg-[#0d0d1a] text-white px-4 md:px-6 shadow-md border-b border-white/5 sticky top-0 z-50">
+
+            <div className="navbar-start flex items-center gap-3">
+                <div className="dropdown lg:hidden">
+                    <label tabIndex={0} className="btn btn-ghost px-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            viewBox="0 0 24 24"
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h12M4 18h16" />
+                        </svg>
+                    </label>
+
                     <ul
-                       id="menu-dropdown"
-                        tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-gray-700 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        tabIndex={0}
+                        className="menu dropdown-content mt-3 w-52 p-4 bg-[#1b1b2e] rounded-xl shadow-lg space-y-2 border border-white/10"
+                    >
                         {links}
                     </ul>
                 </div>
-                <Link to='/' className="text-4xl font-bold text-white flex gap-5 items-center"><span className='hidden lg:block'><IoGameController /> </span><span>Gamehub</span></Link>
-            </div>
-            <div className="navbar-end flex items-center pr-2 md:pr-0">
-                <ul className="hidden lg:flex gap-5">
-                    {links}
 
-                </ul>
-                {
-                    loading ?
-                        <ul className='flex gap-3 ml-5 items-center'>
-                            <li><Link to='/register' className='px-4 py-1  border-emerald-500 text-emerald-500 hover:bg-emerald-600 hover:text-white transition rounded-md ml-2'><span className="loading loading-dots loading-xs"></span></Link></li>
-                            <li><Link to='/login' className='px-4 py-1  border-pink-500 text-pink-500 hover:bg-pink-600 hover:text-white transition rounded-md'><span className="loading loading-dots loading-xs"></span></Link></li>
-                        </ul>
-                        :
-                        (
-                            isUserLoggedIn ?
-                                <ul className='flex items-center gap-5 ml-5'>
-                                    <li><Link to='/profile'>
-                                        <img className='w-9 h-9 rounded-full border-2 border-white/50 hover:border-white transition' src={user.photoURL} alt="" />
-                                    </Link></li>
-                                    <li><button onClick={handleSignOut} className='px-4 py-1 border border-pink-500 text-pink-500 hover:bg-pink-600 hover:text-white transition rounded-md'>Logout</button></li>
-                                </ul>
-                                :
-                                <ul className='flex gap-3 ml-5 items-center'>
-                                    <li><Link to='/register' className='px-4 py-1 border border-emerald-500 text-emerald-500 hover:bg-emerald-600 hover:text-white transition rounded-md ml-2'>Register</Link></li>
-                                    <li><Link to='/login' className='px-4 py-1 border border-pink-500 text-pink-500 hover:bg-pink-600 hover:text-white transition rounded-md'>Login</Link></li>
-                                </ul>
-                        )
-                }
+                {/* Logo */}
+                <Link
+                    to="/"
+                    className="text-2xl md:text-3xl font-bold flex items-center gap-2 hover:opacity-90 transition"
+                >
+                    <IoGameController className="text-blue-400 text-4xl hidden md:block" />
+                    <span className="tracking-wide">GameHub</span>
+                </Link>
             </div>
-        </div>
+
+            <div className="navbar-end flex items-center gap-6">
+
+                <ul className="hidden lg:flex gap-6 text-lg">{links}</ul>
+
+                {loading ? (
+                    <span className="loading loading-dots loading-md"></span>
+                ) : isUserLoggedIn ? (
+                    <div className="flex items-center gap-4">
+                        <Link
+                            to="/profile"
+                            className="flex items-center gap-2 hover:opacity-80 transition"
+                        >
+                            <img
+                                src={user.photoURL}
+                                className="w-10 h-10 rounded-full border border-white/30 shadow-sm hover:scale-105 transition"
+                            />
+                        </Link>
+
+                        <button
+                            onClick={handleSignOut}
+                            className="px-4 py-1.5 rounded-lg border border-pink-500 text-pink-400 
+              hover:bg-pink-600 hover:text-white transition font-medium shadow-sm"
+                        >
+                            Logout
+                        </button>
+                    </div>
+                ) : (
+                    <div className="flex gap-3">
+                        <Link
+                            to="/register"
+                            className="px-4 py-1.5 rounded-lg border border-emerald-500 text-emerald-400 
+              hover:bg-emerald-600 hover:text-white transition shadow-sm font-medium"
+                        >
+                            Register
+                        </Link>
+                        <Link
+                            to="/login"
+                            className="px-4 py-1.5 rounded-lg border border-pink-500 text-pink-400 
+              hover:bg-pink-600 hover:text-white transition shadow-sm font-medium"
+                        >
+                            Login
+                        </Link>
+                    </div>
+                )}
+            </div>
+        </nav>
     );
 };
 

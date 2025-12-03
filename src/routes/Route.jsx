@@ -10,6 +10,8 @@ import AllGames from "../pages/AllGames";
 import PrivateRoute from "./PrivateRoute";
 import Profile from "../pages/Profile";
 import UpdateInfo from "../pages/UpdateInfo";
+import AboutUs from "../components/AboutUs";
+import Contact from "../components/Contact";
 
 const router = createBrowserRouter(
     [
@@ -27,7 +29,7 @@ const router = createBrowserRouter(
                 },
                 {
                     path: "game/:id",
-                    element: <PrivateRoute><GameDetails></GameDetails></PrivateRoute>,
+                    element: <GameDetails></GameDetails>,
                     // errorElement: <NotFound></NotFound>
                 },
                 {
@@ -49,6 +51,14 @@ const router = createBrowserRouter(
                 {
                     path: "update-info",
                     element: <PrivateRoute><UpdateInfo></UpdateInfo></PrivateRoute>
+                },
+                {
+                    path: "about",
+                    Component: AboutUs
+                },
+                {
+                    path: "contact",
+                    Component: Contact
                 },
                 {
                     path: "*",
