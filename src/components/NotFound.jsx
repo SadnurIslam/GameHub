@@ -4,7 +4,7 @@ import { FaSearch } from 'react-icons/fa';
 
 const NotFound = () => {
     return (
-        <div className="flex flex-col items-center justify-center min-h-[70vh p-6">
+        <div className="my-16 flex flex-col items-center justify-center p-6">
             <div className="rounded-2xl shadow-lg p-8 text-center max-w-md">
                 <FaSearch className="text-6xl text-gray-300 mx-auto mb-4" />
                 <h1 className="text-2xl font-bold text-gray-100 mb-2">No Game Found</h1>
